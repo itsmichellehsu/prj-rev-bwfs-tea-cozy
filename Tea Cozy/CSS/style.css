@@ -1,0 +1,199 @@
+
+.background{
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.top-nav-parent{
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.top-nav{
+  display: inline-flex;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  padding-top: 0;
+  margin-top: auto;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: space-between;
+}
+
+
+.top-logo{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  align-items: center;
+}
+
+
+a{
+  color: seashell;
+}
+.top-nav-menu{
+  display: flex;
+  justify-content: space-around;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-decoration: underline;
+  color: seashell;
+  align-items: center;
+  width: 450px;
+}
+
+    /*mission*/
+
+.our-mission-whole{
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+.our-mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("/Users/w551158/Desktop/GRT Projects/Code Practice/Projects/Tea Cozy/Materials/img-mission-background.jpg");
+}
+
+.our-mission-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  height: 150px;
+  width: 1200px;
+}
+
+      /*menu*/
+.menu-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-whole{
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Helvetica;
+  color: seashell;
+  width: 1000px;
+}
+
+.menu-month{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+h4{
+  margin-top: 10px;
+}
+
+.menu-row1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-row2{
+  display: flex;
+  margin: 0px 150px 0px 150px;
+  justify-content: space-around;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Helvetica;
+  color: seashell;
+  width: 300px;
+
+}
+
+
+      /*Locations*/
+
+.location-whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-parent{
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/Users/w551158/Desktop/GRT Projects/Code Practice/Projects/Tea Cozy/Materials/img-locations-background.jpg");
+}
+
+.location-blocks-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.Location-title{
+  display: flex;
+  color: seashell;
+}
+
+.location-blocks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  color: seashell;
+  margin: 15px 20px 0px 20px;
+  text-align: center;
+}
+
+
+      /*footer*/
+.footer1{
+  text-align: center;
+  height: 200px;
+  color: seashell;
+  margin-top: 20px;
+}
+
+.footer2{
+  text-align: left;
+  color: seashell;
+  margin-left: 20px;
+}
+
+
+h5{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
